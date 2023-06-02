@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=sukab378@gmail.com
+Enabled=true
+Parent=7c9e06810fd40bf74e56056f07f563a3208e8ea2
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=e4e1a7a310234e30cba8636fb86d67c8d5f95f27
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=sukab378@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
