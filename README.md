@@ -9,7 +9,7 @@ should be included:
 
 quick install links \
 kitty \
-https://github.com/dexpota/kitty-themes#installation\
+https://github.com/dexpota/kitty-themes#installation\ \
 ohmyzsh\
 https://ohmyz.sh/#install \
 rustup \
