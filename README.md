@@ -19,4 +19,8 @@ https://ohmyz.sh/#install \
 rustup \
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh \
 cool fonts \
-https://www.sainnhe.dev/post/patch-fonts-with-cursive-italic-styles/
+https://www.sainnhe.dev/post/patch-fonts-with-cursive-italic-styles/ \
+Dont search for "packer' on google \
+https://github.com/wbthomason/packer.nvim#quickstart \
+rofi-themes \
+https://github.com/adi1090x/rofi#installation
