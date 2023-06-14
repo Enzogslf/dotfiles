@@ -7,6 +7,10 @@ should be included:
 - Lexsa, Book Italic Font 
 - hopefully none of my personal info lol 
 
+todo: 
+- remove useless files and directories
+- make an install stcript, since im a certified linux distro breaker(fuck nvidia drivers)
+
 quick install links \
 kitty \
 https://github.com/dexpota/kitty-themes#installation\ \
