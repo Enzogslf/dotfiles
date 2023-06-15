@@ -13,7 +13,7 @@ todo:
 
 quick install links \
 kitty \
-https://github.com/dexpota/kitty-themes#installation\ \
+https://github.com/dexpota/kitty-themes#installation \
 ohmyzsh\
 https://ohmyz.sh/#install \
 rustup \
@@ -23,4 +23,6 @@ https://www.sainnhe.dev/post/patch-fonts-with-cursive-italic-styles/ \
 Dont search for "packer' on google \
 https://github.com/wbthomason/packer.nvim#quickstart \
 rofi-themes \
-https://github.com/adi1090x/rofi#installation
+https://github.com/adi1090x/rofi#installation \
+tmux-plugins \
+https://github.com/tmux-plugins/tpm#installation
