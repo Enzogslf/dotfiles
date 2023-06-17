@@ -6,6 +6,8 @@ should be included:
 - i3 with default polybar 
 - Lexsa and lemonade font https://www.sainnhe.dev/post/patch-fonts-with-cursive-italic-styles/
 - rofi
+- neovim is referenced in the zshrc file as "alias vim='~/Documents/./squashfs-root/usr/bin/nvim'", neovim is also contained in the dotfiles \
+that is done because in most apt distros its very outdated(contained version is 9.1)
 
 todo: 
 - remove useless files and directories: done
