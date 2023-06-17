@@ -8,7 +8,7 @@ should be included:
 - hopefully none of my personal info lol 
 
 todo: 
-- remove useless files and directories
+- remove useless files and directories: done
 - make an install stcript, since im a certified linux distro breaker(fuck nvidia drivers)
 
 quick install links \
