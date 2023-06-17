@@ -4,8 +4,8 @@ should be included:
 - nvim with gruvbox-material and other common plugins(theprimeagen video config 
 - with a diferent theme and COLEMAK keybidings) 
 - i3 with default polybar 
-- Lexsa, Book Italic Font 
-- hopefully none of my personal info lol 
+- Lexsa and lemonade font https://www.sainnhe.dev/post/patch-fonts-with-cursive-italic-styles/
+- rofi
 
 todo: 
 - remove useless files and directories: done
