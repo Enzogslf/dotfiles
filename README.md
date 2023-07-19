@@ -10,7 +10,11 @@ that is done because in most apt distros its very outdated(contained version is 
 
 this is the default background(referenced in .Xsession as "feh --bg-scale ~/bgs/tst.png")
 
-![background](./bgs/tst.png)
+![background](./bgs/tst.png) 
+
+preview screenshot: 
+
+![preview](./preview.png) 
 
 todo: 
 - remove useless files and directories: done
