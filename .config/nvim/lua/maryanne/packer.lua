@@ -2,6 +2,7 @@
 
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
+vim.cmd('colorscheme rose-pine')
 
 return require('packer').startup(function(use)
   -- Packer can manage itself
@@ -12,7 +13,24 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-    use('sainnhe/gruvbox-material')
+    -- install without yarn or npm
+use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+})
+
+use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+    use({
+  "aurum77/live-server.nvim",
+    run = function()
+      require"live_server.util".install()
+    end,
+    cmd = { "LiveServer", "LiveServerStart", "LiveServerStop" },
+  })
+    use("mattn/emmet-vim")
+    use("lukas-reineke/indent-blankline.nvim")
+    use('mrjones2014/nvim-ts-rainbow')
+    use({ 'rose-pine/neovim', as = 'rose-pine' })
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use('nvim-treesitter/playground')
 	use("theprimeagen/harpoon")

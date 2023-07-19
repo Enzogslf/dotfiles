@@ -185,8 +185,6 @@ bindsym $mod+p mode "resize"
 
 #window gap
 default_border pixel 0 
-gaps inner 6
-gaps outer 2 
 
 #gaps inner all set 20
 
@@ -197,4 +195,7 @@ gaps outer 2
  #       status_command polybar
 #}
 
-exec_always polybar
+exec bash ~/.config/polybar/docky/scripts/pywal.sh ~/bgs/tst.png
+exec_always bash ~/.config/polybar/launch.sh --docky
+
+
