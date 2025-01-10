@@ -2,7 +2,6 @@
 
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
-vim.cmd('colorscheme rose-pine')
 
 return require('packer').startup(function(use)
   -- Packer can manage itself
@@ -30,7 +29,7 @@ use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = fun
     use("mattn/emmet-vim")
     use("lukas-reineke/indent-blankline.nvim")
     use('mrjones2014/nvim-ts-rainbow')
-    use({ 'rose-pine/neovim', as = 'rose-pine' })
+    use {'srcery-colors/srcery-vim', as = 'srcery'}
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use('nvim-treesitter/playground')
 	use("theprimeagen/harpoon")
