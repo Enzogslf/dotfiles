@@ -1,7 +1,7 @@
 # dotfiles
 should be included: 
 - kitty term with pywal bg theming(uses Lexsa font) 
-- nvim with rosepine to match the pywal theming and other common plugins(COLEMAK-Dh keybindings and telescope now sees hidden files) 
+- nvim with srcery theme COLEMAK-Dh keybindings and telescope now sees hidden files
 - i3 with docky polybar from polybar themes, no border or gaps 
 - Lexsa and lemonade font https://www.sainnhe.dev/post/patch-fonts-with-cursive-italic-styles/
 - rofi
@@ -13,7 +13,7 @@ this is the default background(referenced in .Xsession as "feh --bg-scale ~/bgs/
 ![background](./bgs/tst.png) 
 
 preview screenshot: 
-
+OUTDATED!!
 ![preview](./preview.png) 
 
 todo: 
